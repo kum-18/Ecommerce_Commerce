@@ -7,7 +7,7 @@
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string PhoneNumber { get; set; } = null!;
-        public string? Address { get; set; }         // JSONB — stored as raw JSON string
+        public Address? Address { get; set; }         // JSONB — stored as raw JSON string
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
